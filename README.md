@@ -25,7 +25,7 @@
   <li>🌱&nbsp;I am currently learning everything. 🤣</li>
   <li>🥅&nbsp;One of my goals is to create an open-source project.</li>
   <li>✨&nbsp;I want to develop games and create blog posts.</li>
-  <li>👨‍💻&nbsp;Most of my projects are available on <a href="https://github.com/k14lb3/" target="_blank" rel="noopener noreferrer">GitHub</a>.</li>
+  <li>👨‍💻&nbsp;Most of my projects are available on <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">GitHub</a>.</li>
   <li>⚡&nbsp;Fun fact: I play <a href="https://www.codashop.com/en-ph/valorant" target="_blank" rel="noopener noreferrer">Valorant</a>. PandaStalker31<i>#oof</i></li>
   <li>📫&nbsp;How to reach me: <a href="mailto:k14lb3@gmail.com">k14lb3@gmail.com</a>.</li>
 </ul>
