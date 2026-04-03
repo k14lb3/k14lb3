@@ -1,4 +1,5 @@
 @import 'reset.css';
+@import 'fonts.css';
 
 /* biome-ignore lint/suspicious/noUnknownAtRules: https://stylexjs.com/docs/learn/installation/ */
 @stylex;
