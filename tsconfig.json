@@ -23,7 +23,8 @@
       "@hooks": ["./src/hooks/index.ts"],
       "@lib": ["./src/lib/index.ts"],
       "@styles": ["./src/styles/index.css"],
-      "@types": ["./src/types/index.ts"]
+      "@types": ["./src/types/index.ts"],
+      "@stylex/color.stylex.ts": ["./src/stylex/consts/color.stylex.ts"]
     }
   },
   "include": [

@@ -1,5 +1,9 @@
+import path from 'node:path';
+
 /** @type {string[]} */
 export const presets = ['next/babel'];
+
+const dirname = import.meta.dirname;
 
 /** @type {import('@babel/core').PluginItem[]} */
 export const plugins = [
@@ -10,7 +14,12 @@ export const plugins = [
       treeshakeCompensation: true,
       unstable_moduleResolution: {
         type: 'commonJS',
-        rootDir: import.meta.dirname,
+        rootDir: dirname,
+      },
+      aliases: {
+        '@stylex/color.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/color.stylex.ts'),
+        ],
       },
     },
   ],
