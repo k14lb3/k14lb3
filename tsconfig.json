@@ -24,7 +24,8 @@
       "@lib": ["./src/lib/index.ts"],
       "@styles": ["./src/styles/index.css"],
       "@types": ["./src/types/index.ts"],
-      "@stylex/color.stylex.ts": ["./src/stylex/consts/color.stylex.ts"]
+      "@stylex/color.stylex.ts": ["./src/stylex/consts/color.stylex.ts"],
+      "@stylex/font.stylex.ts": ["./src/stylex/consts/font.stylex.ts"]
     }
   },
   "include": [
