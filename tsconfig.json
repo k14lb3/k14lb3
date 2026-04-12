@@ -21,6 +21,7 @@
     ],
     "paths": {
       "@components": ["./src/components/index.ts"],
+      "@constants": ["./src/constants/index.ts"],
       "@hooks": ["./src/hooks/index.ts"],
       "@lib": ["./src/lib/index.ts"],
       "@styles": ["./src/styles/index.css"],

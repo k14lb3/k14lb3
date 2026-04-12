@@ -1,0 +1,17 @@
+export const ICONS = {
+  FIRE: '󰈸',
+  HAMMER: '',
+  EMOTICON_COOL: '󰱫',
+  EMOTICON_TONGUE: '󰇹',
+  CODE: '󰅴',
+  FILE: '󰈙',
+  GITHUB: '󰊤',
+  LINKEDIN: '󰌻',
+  YOUTUBE: '󰗃',
+  ARCH: '󰣇',
+  NEOVIM: '',
+  COFFEE: '󰅶',
+  ANIMATION: '󰗘',
+  MOUSE: '󰍽',
+  QUOTE: '󰝗',
+} as const;
