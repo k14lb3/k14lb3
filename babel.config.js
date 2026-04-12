@@ -20,8 +20,8 @@ export const plugins = [
         '@stylex/color.stylex.ts': [
           path.join(dirname, 'src/stylex/consts/color.stylex.ts'),
         ],
-        '@stylex/font.stylex.ts': [
-          path.join(dirname, 'src/stylex/consts/font.stylex.ts'),
+        '@stylex/font-family.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/font-family.stylex.ts'),
         ],
       },
     },
