@@ -27,9 +27,6 @@
       "@styles": ["./src/styles/index.css"],
       "@types": ["./src/types/index.ts"],
       "@stylex/color.stylex.ts": ["./src/stylex/consts/color.stylex.ts"],
-      "@stylex/font-family.stylex.ts": [
-        "./src/stylex/consts/font-family.stylex.ts"
-      ],
       "@stylex/misc.stylex.ts": ["./src/stylex/consts/misc.stylex.ts"]
     }
   },
