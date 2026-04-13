@@ -23,6 +23,9 @@ export const plugins = [
         '@stylex/font-family.stylex.ts': [
           path.join(dirname, 'src/stylex/consts/font-family.stylex.ts'),
         ],
+        '@stylex/misc.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/misc.stylex.ts'),
+        ],
       },
     },
   ],
