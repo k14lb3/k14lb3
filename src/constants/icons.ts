@@ -7,6 +7,7 @@ export const ICONS = {
   FILE: '󰈙',
   GITHUB: '󰊤',
   LINKEDIN: '󰌻',
+  EMAIL: '󰇮',
   YOUTUBE: '󰗃',
   ARCH: '󰣇',
   NEOVIM: '',
