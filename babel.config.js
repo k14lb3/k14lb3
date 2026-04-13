@@ -17,6 +17,9 @@ export const plugins = [
         rootDir: dirname,
       },
       aliases: {
+        '@stylex/animation.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/animation.stylex.ts'),
+        ],
         '@stylex/color.stylex.ts': [
           path.join(dirname, 'src/stylex/consts/color.stylex.ts'),
         ],
