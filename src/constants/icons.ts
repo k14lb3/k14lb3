@@ -8,11 +8,6 @@ export const ICONS = {
   GITHUB: '󰊤',
   LINKEDIN: '󰌻',
   EMAIL: '󰇮',
-  YOUTUBE: '󰗃',
   ARCH: '󰣇',
   NEOVIM: '',
-  COFFEE: '󰅶',
-  ANIMATION: '󰗘',
-  MOUSE: '󰍽',
-  QUOTE: '󰝗',
 } as const;
