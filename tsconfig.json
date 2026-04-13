@@ -27,6 +27,7 @@
       "@styles": ["./src/styles/index.css"],
       "@types": ["./src/types/index.ts"],
       "@stylex/animation.stylex.ts": ["./src/stylex/consts/animation.stylex.ts"],
+      "@stylex/breakpoints.stylex.ts": ["./src/stylex/consts/breakpoints.stylex.ts"],
       "@stylex/color.stylex.ts": ["./src/stylex/consts/color.stylex.ts"],
       "@stylex/misc.stylex.ts": ["./src/stylex/consts/misc.stylex.ts"]
     }

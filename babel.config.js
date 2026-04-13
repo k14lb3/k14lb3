@@ -20,6 +20,9 @@ export const plugins = [
         '@stylex/animation.stylex.ts': [
           path.join(dirname, 'src/stylex/consts/animation.stylex.ts'),
         ],
+        '@stylex/breakpoints.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/breakpoints.stylex.ts'),
+        ],
         '@stylex/color.stylex.ts': [
           path.join(dirname, 'src/stylex/consts/color.stylex.ts'),
         ],
