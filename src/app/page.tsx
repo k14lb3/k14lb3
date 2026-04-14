@@ -1,17 +1,22 @@
 import { About, Contacts, Me } from '@components';
 import { PERSONAL_DETAILS } from '@constants';
 import { breakpoints } from '@stylex/breakpoints.stylex.ts';
+import { misc } from '@stylex/misc.stylex.ts';
 import * as stylex from '@stylexjs/stylex';
 import type { JSX } from 'react';
 
 const styles = stylex.create({
-  fullName: {
-    fontWeight: 'bold',
-    textTransform: 'uppercase',
+  header: {
+    marginBottom: `calc(${misc.lineHeight} * 2)`,
     textAlign: {
       default: 'center',
       [breakpoints.small]: 'left',
     },
+  },
+  fullName: {
+    fontWeight: 'bold',
+    textTransform: 'uppercase',
+    marginBottom: 0,
   },
   section: {
     display: 'grid',
@@ -56,8 +61,9 @@ const styles = stylex.create({
 export default (): JSX.Element => {
   return (
     <main>
-      <header>
+      <header {...stylex.props(styles.header)}>
         <h1 {...stylex.props(styles.fullName)}>{PERSONAL_DETAILS.FULL_NAME}</h1>
+        <span>{PERSONAL_DETAILS.FULL_NAME_JAPANESE}</span>
       </header>
       <section {...stylex.props(styles.section)}>
         <About style={styles.about} />
