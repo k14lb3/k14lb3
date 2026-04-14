@@ -7,8 +7,11 @@ import type { JSX } from 'react';
 const styles = stylex.create({
   fullName: {
     fontWeight: 'bold',
-    width: 'fit-content',
     textTransform: 'uppercase',
+    textAlign: {
+      default: 'center',
+      [breakpoints.small]: 'left',
+    },
   },
   section: {
     display: 'grid',
