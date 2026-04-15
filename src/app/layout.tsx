@@ -3,8 +3,8 @@ import '@styles';
 import { breakpoints } from '@stylex/breakpoints.stylex.ts';
 import * as stylex from '@stylexjs/stylex';
 import type { PropsWithChildren } from 'react';
-import { color } from '../stylex/consts/color.stylex';
-import { misc } from '../stylex/consts/misc.stylex';
+import { colors } from '../stylex/consts/colors.stylex';
+import { miscs } from '../stylex/consts/miscs.stylex';
 
 const styles = stylex.create({
   html: {
@@ -12,18 +12,18 @@ const styles = stylex.create({
     width: '100%',
     flexDirection: 'column',
     alignItems: 'center',
-    backgroundColor: color.background,
-    color: color.text,
+    backgroundColor: colors.background,
+    color: colors.text,
   },
   body: {
     position: 'relative',
     width: '100%',
     padding: {
-      default: `${misc.lineHeight} 2ch`,
-      [breakpoints.extraSmall]: `${misc.lineHeight} 1ch`,
+      default: `${miscs.lineHeight} 2ch`,
+      [breakpoints.extraSmall]: `${miscs.lineHeight} 1ch`,
     },
     maxWidth: 'calc(min(80ch, round(down, 100%, 1ch)))',
-    lineHeight: misc.lineHeight,
+    lineHeight: miscs.lineHeight,
     overflowX: 'hidden',
   },
 });

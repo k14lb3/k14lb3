@@ -44,7 +44,7 @@ const shake = stylex.keyframes({
   },
 });
 
-export const animation = stylex.defineConsts({
+export const animations = stylex.defineConsts({
   pulse,
   wiggle,
   bounce,

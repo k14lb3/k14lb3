@@ -1,13 +1,13 @@
 import { About, Contacts, Me } from '@components';
 import { PERSONAL_DETAILS } from '@constants';
 import { breakpoints } from '@stylex/breakpoints.stylex.ts';
-import { misc } from '@stylex/misc.stylex.ts';
+import { miscs } from '@stylex/miscs.stylex.ts';
 import * as stylex from '@stylexjs/stylex';
 import type { JSX } from 'react';
 
 const styles = stylex.create({
   header: {
-    marginBottom: `calc(${misc.lineHeight} * 2)`,
+    marginBottom: `calc(${miscs.lineHeight} * 2)`,
     textAlign: {
       default: 'center',
       [breakpoints.small]: 'left',

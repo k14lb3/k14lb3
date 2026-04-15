@@ -17,17 +17,17 @@ export const plugins = [
         rootDir: dirname,
       },
       aliases: {
-        '@stylex/animation.stylex.ts': [
-          path.join(dirname, 'src/stylex/consts/animation.stylex.ts'),
+        '@stylex/animations.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/animations.stylex.ts'),
         ],
         '@stylex/breakpoints.stylex.ts': [
           path.join(dirname, 'src/stylex/consts/breakpoints.stylex.ts'),
         ],
-        '@stylex/color.stylex.ts': [
-          path.join(dirname, 'src/stylex/consts/color.stylex.ts'),
+        '@stylex/colors.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/colors.stylex.ts'),
         ],
-        '@stylex/misc.stylex.ts': [
-          path.join(dirname, 'src/stylex/consts/misc.stylex.ts'),
+        '@stylex/miscs.stylex.ts': [
+          path.join(dirname, 'src/stylex/consts/miscs.stylex.ts'),
         ],
       },
     },

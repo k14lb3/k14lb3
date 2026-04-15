@@ -1,6 +1,6 @@
 import { Link } from '@components';
 import { ICONS, URLS } from '@constants';
-import { animation } from '@stylex/animation.stylex.ts';
+import { animations } from '@stylex/animations.stylex.ts';
 import * as stylex from '@stylexjs/stylex';
 import type { FunctionComponent } from 'react';
 import { TextWithAnimatedIcon } from './text-with-animated-icon';
@@ -10,30 +10,30 @@ const styles = stylex.create({
     whiteSpace: 'pre-line',
   },
   fireIcon: {
-    animationName: animation.pulse,
+    animationName: animations.pulse,
     animationDuration: '2s',
     animationTimingFunction: 'cubic-bezier(0.4, 0, 0.6, 1)',
     animationIterationCount: 'infinite',
   },
   hammerIcon: {
-    animationName: animation.wiggle,
+    animationName: animations.wiggle,
     animationDuration: '1s',
     animationTimingFunction: 'ease-in-out',
     animationIterationCount: 'infinite',
   },
   emoticonCoolIcon: {
-    animationName: animation.bounce,
+    animationName: animations.bounce,
     animationDuration: '1s',
     animationIterationCount: 'infinite',
   },
   emoticonTongueIcon: {
-    animationName: animation.spin,
+    animationName: animations.spin,
     animationDuration: '1s',
     animationTimingFunction: 'linear',
     animationIterationCount: 'infinite',
   },
   codeIcon: {
-    animationName: animation.shake,
+    animationName: animations.shake,
     animationDuration: '0.25s',
     animationTimingFunction: 'linear',
     animationIterationCount: 'infinite',
