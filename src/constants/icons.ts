@@ -10,4 +10,5 @@ export const ICONS = {
   EMAIL: '󰇮',
   ARCH: '󰣇',
   NEOVIM: '',
+  WEB: '󰖟',
 } as const;
