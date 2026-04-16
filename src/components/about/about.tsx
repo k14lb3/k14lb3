@@ -71,8 +71,7 @@ export const About: FunctionComponent<Props> = ({ style }) => {
       <TextWithAnimatedIcon icon={ICONS.CODE} iconStyle={styles.codeIcon}>
         code
       </TextWithAnimatedIcon>
-      .{`\n\n`}I also use <Link href={URLS.ARCH_LINUX}>{ICONS.ARCH}rch</Link>{' '}
-      and <Link href={URLS.NEOVIM}>{ICONS.NEOVIM}eovim</Link>{' '}
+      .{`\n\n`}I also use {ICONS.ARCH}rch and {ICONS.NEOVIM}eovim{' '}
       <Link href={URLS.BTW_I_USE_ARCH_MEME}>BTW</Link>.
     </p>
   );
