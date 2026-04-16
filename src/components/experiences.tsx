@@ -5,11 +5,14 @@ import type { FunctionComponent } from 'react';
 import { Link } from './link';
 
 const styles = stylex.create({
-  header: {
-    marginBottom: `calc(${miscs.lineHeight} * 2)`,
+  period: {
+    width: '20%',
   },
-  role: {
-    marginBottom: 0,
+  duration: {
+    marginBlock: `calc(${miscs.lineHeight} * 2)`,
+  },
+  company: {
+    display: 'inline-block',
   },
 });
 
@@ -20,20 +23,18 @@ export const Experiences: FunctionComponent = () => {
       <table>
         <tbody>
           <tr>
-            <td>
-              <h3>Sept 2022 - Present</h3>
+            <td {...stylex.props(styles.period)}>
+              <p {...stylex.props(styles.duration)}>Sept 2022 - Present</p>
             </td>
             <td>
-              <header {...stylex.props(styles.header)}>
-                <h3 {...stylex.props(styles.role)}>
-                  Software Development Engineer
-                </h3>
-                <p>
+              <p>
+                <strong>Software Development Engineer</strong>
+                <span {...stylex.props(styles.company)}>
                   {ICONS.WEB}{' '}
                   <Link href='https://www.restoplus.com/'>Restoplus</Link> -
                   Adelaide, South Australia
-                </p>
-              </header>
+                </span>
+              </p>
               <ul>
                 <li>
                   Writing code responsible for millions of dollars in
