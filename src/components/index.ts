@@ -5,3 +5,4 @@ export * from './contacts';
 export * from './experiences';
 export * from './link';
 export * from './me';
+export * from './projects';
