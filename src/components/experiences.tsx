@@ -5,7 +5,6 @@ import type { FunctionComponent } from 'react';
 import { Link } from './link';
 
 const styles = stylex.create({
-  base: {},
   header: {
     marginBottom: `calc(${miscs.lineHeight} * 2)`,
   },
