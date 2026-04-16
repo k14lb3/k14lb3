@@ -1,3 +1,4 @@
+import { ICONS } from '@constants';
 import { miscs } from '@stylex/miscs.stylex.ts';
 import * as stylex from '@stylexjs/stylex';
 import type { FunctionComponent } from 'react';
@@ -28,9 +29,11 @@ export const Experiences: FunctionComponent = () => {
                 <h3 {...stylex.props(styles.role)}>
                   Software Development Engineer
                 </h3>
-                <span>
-                  <Link href='https://www.restoplus.com/'>Restoplus</Link>
-                </span>
+                <p>
+                  {ICONS.WEB}{' '}
+                  <Link href='https://www.restoplus.com/'>Restoplus</Link> -
+                  Adelaide, South Australia
+                </p>
               </header>
               <ul>
                 <li>
