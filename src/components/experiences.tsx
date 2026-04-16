@@ -34,7 +34,7 @@ export const Experiences: FunctionComponent = () => {
               </header>
               <ul>
                 <li>
-                  Writing code (Node and ReactJS) responsible for millions of
+                  Writing code responsible for millions of
                   dollars in transactions, innovating on new features,
                   optimizing systems, collaborating with the team and performing
                   peer reviews.
