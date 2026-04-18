@@ -1,4 +1,5 @@
 import { ICONS } from '@constants';
+import { getDurationText } from '@lib';
 import { miscs } from '@stylex/miscs.stylex.ts';
 import * as stylex from '@stylexjs/stylex';
 import type { FunctionComponent } from 'react';
@@ -24,7 +25,10 @@ export const Experiences: FunctionComponent = () => {
         <tbody>
           <tr>
             <td {...stylex.props(styles.period)}>
-              <p {...stylex.props(styles.duration)}>Sept 2022 - Present</p>
+              <p {...stylex.props(styles.duration)}>
+                Sept 2022 - Present •{' '}
+                {getDurationText({ startDate: new Date('2022-09-01') })}
+              </p>
             </td>
             <td>
               <p>
